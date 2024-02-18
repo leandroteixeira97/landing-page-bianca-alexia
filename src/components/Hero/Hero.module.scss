@@ -1,0 +1,27 @@
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  padding-top: 72px;
+  min-height: 320px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../../public/hero-background.jpeg");
+  box-shadow: rgba(0, 0, 0, 0.245) 5px 5px 10px 1px;
+
+  .headingContainer {
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+    h2,
+    h6 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
