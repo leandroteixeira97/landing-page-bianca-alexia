@@ -1,6 +1,6 @@
 import { Hero } from "@/components/Hero/Hero";
 import { ReactElement } from "react";
-import { Layout } from "./Layout";
+import { Layout } from "../components/Layout";
 import { LinkContainer } from "@/components/LinkContainer/LinkContainer";
 import { LinkProps } from "@/components/Link/Link";
 import { AboutMe } from "@/components/AboutMe/AboutMe";

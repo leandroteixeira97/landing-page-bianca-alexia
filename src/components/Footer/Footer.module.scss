@@ -1,13 +1,17 @@
 .footerContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(41, 41, 41);
-    color: white;
-    font-size: .7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  font-size: 0.7rem;
 
+  div {
     a {
-        text-decoration: none;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
     }
+  }
 }
