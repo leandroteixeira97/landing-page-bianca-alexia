@@ -1,3 +1,4 @@
+import { ProfilePicture } from "../ProfilePicture/ProfilePicture";
 import { bebas_neue, roboto } from "../fonts";
 import Styles from "./Hero.module.scss";
 
@@ -6,6 +7,7 @@ export function Hero(props: HeroProps) {
     <div className={Styles.heroContainer}>
       <div className={Styles.headingContainer}>
         <div>
+          <ProfilePicture />
           <h2 className={bebas_neue.className}>{props.name}</h2>
           <h6 className={roboto.className}>{props.slogan}</h6>
         </div>

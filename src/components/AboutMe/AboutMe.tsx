@@ -1,10 +1,11 @@
-import { roboto } from "../fonts";
+import { bebas_neue, roboto } from "../fonts";
 import Styles from "./AboutMe.module.scss";
 
 export function AboutMe() {
   return (
-    <div className={roboto.className}>
-      <div className={Styles.aboutMeContainer}>
+    <div className={Styles.aboutMeContainer}>
+      <h2 className={bebas_neue.className}>Sobre mim</h2>
+      <div className={roboto.className}>
         <p>
           Olá, eu sou Bianca, uma <span>Gestora de Tráfego</span> dedicada a
           impulsionar a presença online da sua marca. Com uma paixão pelo
