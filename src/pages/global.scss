@@ -2,6 +2,13 @@ body, html {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
